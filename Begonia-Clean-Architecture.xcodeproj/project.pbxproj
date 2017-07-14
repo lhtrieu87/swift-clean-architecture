@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8CECC3E1F1912AB00BFE922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC3D1F1912AB00BFE922 /* AppDelegate.swift */; };
+		D8CECC401F1912AB00BFE922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC3F1F1912AB00BFE922 /* ViewController.swift */; };
+		D8CECC431F1912AB00BFE922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CECC411F1912AB00BFE922 /* Main.storyboard */; };
+		D8CECC461F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC441F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodeld */; };
+		D8CECC481F1912AB00BFE922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CECC471F1912AB00BFE922 /* Assets.xcassets */; };
+		D8CECC4B1F1912AB00BFE922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CECC491F1912AB00BFE922 /* LaunchScreen.storyboard */; };
+		D8CECC561F1912AB00BFE922 /* Begonia_Clean_ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC551F1912AB00BFE922 /* Begonia_Clean_ArchitectureTests.swift */; };
+		D8CECC611F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC601F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8CECC521F1912AB00BFE922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CECC321F1912AB00BFE922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CECC391F1912AB00BFE922;
+			remoteInfo = "Begonia-Clean-Architecture";
+		};
+		D8CECC5D1F1912AB00BFE922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CECC321F1912AB00BFE922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CECC391F1912AB00BFE922;
+			remoteInfo = "Begonia-Clean-Architecture";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8CECC3A1F1912AB00BFE922 /* Begonia-Clean-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Begonia-Clean-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CECC3D1F1912AB00BFE922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8CECC3F1F1912AB00BFE922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8CECC421F1912AB00BFE922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8CECC451F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Begonia_Clean_Architecture.xcdatamodel; sourceTree = "<group>"; };
+		D8CECC471F1912AB00BFE922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8CECC4A1F1912AB00BFE922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8CECC4C1F1912AB00BFE922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CECC511F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Begonia-Clean-ArchitectureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CECC551F1912AB00BFE922 /* Begonia_Clean_ArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Begonia_Clean_ArchitectureTests.swift; sourceTree = "<group>"; };
+		D8CECC571F1912AB00BFE922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CECC5C1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Begonia-Clean-ArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CECC601F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Begonia_Clean_ArchitectureUITests.swift; sourceTree = "<group>"; };
+		D8CECC621F1912AB00BFE922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8CECC371F1912AB00BFE922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CECC4E1F1912AB00BFE922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CECC591F1912AB00BFE922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8CECC311F1912AB00BFE922 = {
+			isa = PBXGroup;
+			children = (
+				D8CECC3C1F1912AB00BFE922 /* Begonia-Clean-Architecture */,
+				D8CECC541F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests */,
+				D8CECC5F1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests */,
+				D8CECC3B1F1912AB00BFE922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8CECC3B1F1912AB00BFE922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8CECC3A1F1912AB00BFE922 /* Begonia-Clean-Architecture.app */,
+				D8CECC511F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests.xctest */,
+				D8CECC5C1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8CECC3C1F1912AB00BFE922 /* Begonia-Clean-Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				D8CECC3D1F1912AB00BFE922 /* AppDelegate.swift */,
+				D8CECC3F1F1912AB00BFE922 /* ViewController.swift */,
+				D8CECC411F1912AB00BFE922 /* Main.storyboard */,
+				D8CECC471F1912AB00BFE922 /* Assets.xcassets */,
+				D8CECC491F1912AB00BFE922 /* LaunchScreen.storyboard */,
+				D8CECC4C1F1912AB00BFE922 /* Info.plist */,
+				D8CECC441F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodeld */,
+			);
+			path = "Begonia-Clean-Architecture";
+			sourceTree = "<group>";
+		};
+		D8CECC541F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8CECC551F1912AB00BFE922 /* Begonia_Clean_ArchitectureTests.swift */,
+				D8CECC571F1912AB00BFE922 /* Info.plist */,
+			);
+			path = "Begonia-Clean-ArchitectureTests";
+			sourceTree = "<group>";
+		};
+		D8CECC5F1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8CECC601F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift */,
+				D8CECC621F1912AB00BFE922 /* Info.plist */,
+			);
+			path = "Begonia-Clean-ArchitectureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8CECC391F1912AB00BFE922 /* Begonia-Clean-Architecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CECC651F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-Architecture" */;
+			buildPhases = (
+				D8CECC361F1912AB00BFE922 /* Sources */,
+				D8CECC371F1912AB00BFE922 /* Frameworks */,
+				D8CECC381F1912AB00BFE922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Begonia-Clean-Architecture";
+			productName = "Begonia-Clean-Architecture";
+			productReference = D8CECC3A1F1912AB00BFE922 /* Begonia-Clean-Architecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8CECC501F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CECC681F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureTests" */;
+			buildPhases = (
+				D8CECC4D1F1912AB00BFE922 /* Sources */,
+				D8CECC4E1F1912AB00BFE922 /* Frameworks */,
+				D8CECC4F1F1912AB00BFE922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8CECC531F1912AB00BFE922 /* PBXTargetDependency */,
+			);
+			name = "Begonia-Clean-ArchitectureTests";
+			productName = "Begonia-Clean-ArchitectureTests";
+			productReference = D8CECC511F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8CECC5B1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CECC6B1F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureUITests" */;
+			buildPhases = (
+				D8CECC581F1912AB00BFE922 /* Sources */,
+				D8CECC591F1912AB00BFE922 /* Frameworks */,
+				D8CECC5A1F1912AB00BFE922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8CECC5E1F1912AB00BFE922 /* PBXTargetDependency */,
+			);
+			name = "Begonia-Clean-ArchitectureUITests";
+			productName = "Begonia-Clean-ArchitectureUITests";
+			productReference = D8CECC5C1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8CECC321F1912AB00BFE922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Le Hong Trieu";
+				TargetAttributes = {
+					D8CECC391F1912AB00BFE922 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9VB47TD2V7;
+						ProvisioningStyle = Automatic;
+					};
+					D8CECC501F1912AB00BFE922 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9VB47TD2V7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8CECC391F1912AB00BFE922;
+					};
+					D8CECC5B1F1912AB00BFE922 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9VB47TD2V7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8CECC391F1912AB00BFE922;
+					};
+				};
+			};
+			buildConfigurationList = D8CECC351F1912AB00BFE922 /* Build configuration list for PBXProject "Begonia-Clean-Architecture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8CECC311F1912AB00BFE922;
+			productRefGroup = D8CECC3B1F1912AB00BFE922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8CECC391F1912AB00BFE922 /* Begonia-Clean-Architecture */,
+				D8CECC501F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests */,
+				D8CECC5B1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8CECC381F1912AB00BFE922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CECC4B1F1912AB00BFE922 /* LaunchScreen.storyboard in Resources */,
+				D8CECC481F1912AB00BFE922 /* Assets.xcassets in Resources */,
+				D8CECC431F1912AB00BFE922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CECC4F1F1912AB00BFE922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CECC5A1F1912AB00BFE922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8CECC361F1912AB00BFE922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CECC401F1912AB00BFE922 /* ViewController.swift in Sources */,
+				D8CECC3E1F1912AB00BFE922 /* AppDelegate.swift in Sources */,
+				D8CECC461F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CECC4D1F1912AB00BFE922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CECC561F1912AB00BFE922 /* Begonia_Clean_ArchitectureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CECC581F1912AB00BFE922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CECC611F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8CECC531F1912AB00BFE922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8CECC391F1912AB00BFE922 /* Begonia-Clean-Architecture */;
+			targetProxy = D8CECC521F1912AB00BFE922 /* PBXContainerItemProxy */;
+		};
+		D8CECC5E1F1912AB00BFE922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8CECC391F1912AB00BFE922 /* Begonia-Clean-Architecture */;
+			targetProxy = D8CECC5D1F1912AB00BFE922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8CECC411F1912AB00BFE922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CECC421F1912AB00BFE922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8CECC491F1912AB00BFE922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CECC4A1F1912AB00BFE922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8CECC631F1912AB00BFE922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8CECC641F1912AB00BFE922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8CECC661F1912AB00BFE922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VB47TD2V7;
+				INFOPLIST_FILE = "Begonia-Clean-Architecture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lenar.Begonia-Clean-Architecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D8CECC671F1912AB00BFE922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VB47TD2V7;
+				INFOPLIST_FILE = "Begonia-Clean-Architecture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lenar.Begonia-Clean-Architecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D8CECC691F1912AB00BFE922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9VB47TD2V7;
+				INFOPLIST_FILE = "Begonia-Clean-ArchitectureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lenar.Begonia-Clean-ArchitectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Begonia-Clean-Architecture.app/Begonia-Clean-Architecture";
+			};
+			name = Debug;
+		};
+		D8CECC6A1F1912AB00BFE922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9VB47TD2V7;
+				INFOPLIST_FILE = "Begonia-Clean-ArchitectureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lenar.Begonia-Clean-ArchitectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Begonia-Clean-Architecture.app/Begonia-Clean-Architecture";
+			};
+			name = Release;
+		};
+		D8CECC6C1F1912AB00BFE922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9VB47TD2V7;
+				INFOPLIST_FILE = "Begonia-Clean-ArchitectureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lenar.Begonia-Clean-ArchitectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Begonia-Clean-Architecture";
+			};
+			name = Debug;
+		};
+		D8CECC6D1F1912AB00BFE922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9VB47TD2V7;
+				INFOPLIST_FILE = "Begonia-Clean-ArchitectureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lenar.Begonia-Clean-ArchitectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Begonia-Clean-Architecture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8CECC351F1912AB00BFE922 /* Build configuration list for PBXProject "Begonia-Clean-Architecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CECC631F1912AB00BFE922 /* Debug */,
+				D8CECC641F1912AB00BFE922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8CECC651F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-Architecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CECC661F1912AB00BFE922 /* Debug */,
+				D8CECC671F1912AB00BFE922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8CECC681F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CECC691F1912AB00BFE922 /* Debug */,
+				D8CECC6A1F1912AB00BFE922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8CECC6B1F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CECC6C1F1912AB00BFE922 /* Debug */,
+				D8CECC6D1F1912AB00BFE922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8CECC441F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8CECC451F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodel */,
+			);
+			currentVersion = D8CECC451F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodel */;
+			path = Begonia_Clean_Architecture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D8CECC321F1912AB00BFE922 /* Project object */;
+}
