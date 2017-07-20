@@ -13,3 +13,9 @@ struct User {
     let name: String
     let email: String
 }
+
+class UserParser: Parser {
+    func parse(_ from: CDUser) -> User {
+        return User(id: from.id, name: from.name, email: from.email)
+    }
+}

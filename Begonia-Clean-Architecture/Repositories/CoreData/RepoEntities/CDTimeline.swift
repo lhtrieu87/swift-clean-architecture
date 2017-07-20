@@ -31,12 +31,3 @@ class CDTimeline: NSManagedObject {
     @NSManaged var totalMessages: Int16
     @NSManaged var wasDeleted: Bool
 }
-
-extension CDTimeline: Parsable {
-    typealias F = CDTimeline
-    typealias T = Timeline
-    
-    func parse(_ from: CDTimeline) -> Timeline {
-        return Timeline(id: from.id, locationName: from.location, subtype: from.subtype, timestamp: from.timestamp, totalMessages: from.totalMessages, wasDeleted: from.wasDeleted)
-    }
-}

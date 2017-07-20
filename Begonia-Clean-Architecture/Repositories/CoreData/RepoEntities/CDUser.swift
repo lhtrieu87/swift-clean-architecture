@@ -15,12 +15,3 @@ class CDUser: NSManagedObject {
     @NSManaged var email: String
 }
 
-extension CDUser: Parsable {
-    typealias F = CDUser
-    typealias T = User
-    
-    func parse(_ from: CDUser) -> User {
-        return User(id: from.id, name: from.name, email: from.email)
-    }
-}
-

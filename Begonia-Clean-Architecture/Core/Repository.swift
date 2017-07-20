@@ -12,10 +12,10 @@ import RxSwift
 protocol Repository {
     associatedtype S
     
-    func get<P: Parsable>(predicate: NSPredicate, sorts: [NSSortDescriptor], parser: P) -> Observable<Try<[P.T]>> where P.F == S
+    func get<P: Parser>(predicate: NSPredicate, sorts: [NSSortDescriptor], parser: P) -> Observable<Try<[P.T]>> where P.F == S
 }
 
-protocol Parsable {
+protocol Parser {
     associatedtype F
     associatedtype T
     func parse(_ from: F) -> T

@@ -16,3 +16,9 @@ struct Timeline {
     let totalMessages: Int16
     let wasDeleted: Bool
 }
+
+struct TimelineParser: Parser {
+    func parse(_ from: CDTimeline) -> Timeline {
+        return Timeline(id: from.id, locationName: from.location, subtype: from.subtype, timestamp: from.timestamp, totalMessages: from.totalMessages, wasDeleted: from.wasDeleted)
+    }
+}

@@ -19,7 +19,7 @@ class CoreDataRepo: Repository {
         self.dbContext = dbContext
     }
     
-    func get<P>(predicate: NSPredicate, sorts: [NSSortDescriptor], parser: P) -> Observable<Try<[P.T]>> where P : Parsable, P.F : CoreDataRepo.S {
+    func get<P>(predicate: NSPredicate, sorts: [NSSortDescriptor], parser: P) -> Observable<Try<[P.T]>> where P : Parser, P.F : CoreDataRepo.S {
         let request = NSFetchRequest<P.F>(entityName: P.F.description())
         request.predicate = predicate
         request.sortDescriptors = sorts
@@ -39,5 +39,11 @@ class CoreDataRepo: Repository {
             .catchError({ error -> Observable<Try<[P.T]>> in
                 return Observable.just(Try.Error(error))
             })
+    }
+}
+
+class CoreDataExample {
+    func example() {
+        let _: Observable<Try<[User]>> = CoreDataRepo(dbContext: NSManagedObjectContext()).get(predicate: NSPredicate(), sorts: [NSSortDescriptor()], parser: UserParser())
     }
 }
