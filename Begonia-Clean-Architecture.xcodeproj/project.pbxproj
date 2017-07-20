@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210CA08A5C6DFD6F867617D7 /* Pods_Begonia_Clean_ArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7730BBEDE0FF860DE20AA0F0 /* Pods_Begonia_Clean_ArchitectureTests.framework */; };
+		B6CCEFD1DA51021CF6887A2A /* Pods_Begonia_Clean_Architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B387B067CA12840FDEF605A /* Pods_Begonia_Clean_Architecture.framework */; };
+		C2148638EAFF9272B18BBF01 /* Pods_Begonia_Clean_ArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D6F05C970AC974B085B7C8 /* Pods_Begonia_Clean_ArchitectureUITests.framework */; };
+		D84D0C541F19205F009D6470 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84D0C531F19205F009D6470 /* Repository.swift */; };
+		D86161BE1F1BBF1D00587A0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86161BD1F1BBF1D00587A0C /* User.swift */; };
+		D86161C01F1BBF5C00587A0C /* CDUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86161BF1F1BBF5C00587A0C /* CDUser.swift */; };
+		D86161C41F1C49B200587A0C /* Try.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86161C31F1C49B200587A0C /* Try.swift */; };
 		D8CECC3E1F1912AB00BFE922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC3D1F1912AB00BFE922 /* AppDelegate.swift */; };
 		D8CECC401F1912AB00BFE922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC3F1F1912AB00BFE922 /* ViewController.swift */; };
 		D8CECC431F1912AB00BFE922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CECC411F1912AB00BFE922 /* Main.storyboard */; };
@@ -15,6 +22,9 @@
 		D8CECC4B1F1912AB00BFE922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CECC491F1912AB00BFE922 /* LaunchScreen.storyboard */; };
 		D8CECC561F1912AB00BFE922 /* Begonia_Clean_ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC551F1912AB00BFE922 /* Begonia_Clean_ArchitectureTests.swift */; };
 		D8CECC611F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECC601F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift */; };
+		D8D629DD1F1BAC7300421B5A /* CoreDataRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D629DC1F1BAC7300421B5A /* CoreDataRepo.swift */; };
+		D8D629E71F1BAF0E00421B5A /* CDTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D629E61F1BAF0E00421B5A /* CDTimeline.swift */; };
+		D8D629EA1F1BAF5900421B5A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D629E91F1BAF5900421B5A /* Timeline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F5AF81DA120402E20BA79A /* Pods-Begonia-Clean-ArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Begonia-Clean-ArchitectureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureTests/Pods-Begonia-Clean-ArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FECC9425C52BE163FD9711A /* Pods-Begonia-Clean-ArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Begonia-Clean-ArchitectureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureUITests/Pods-Begonia-Clean-ArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6332F4BC250AE4AAEEC9686D /* Pods-Begonia-Clean-ArchitectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Begonia-Clean-ArchitectureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureTests/Pods-Begonia-Clean-ArchitectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7730BBEDE0FF860DE20AA0F0 /* Pods_Begonia_Clean_ArchitectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Begonia_Clean_ArchitectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B387B067CA12840FDEF605A /* Pods_Begonia_Clean_Architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Begonia_Clean_Architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB3CF0B97A29C355EAC501A /* Pods-Begonia-Clean-ArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Begonia-Clean-ArchitectureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureUITests/Pods-Begonia-Clean-ArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3D58EE2E04AFF730DB28A2C /* Pods-Begonia-Clean-Architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Begonia-Clean-Architecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Begonia-Clean-Architecture/Pods-Begonia-Clean-Architecture.debug.xcconfig"; sourceTree = "<group>"; };
+		C3FE46B85E8530A3AB70B20C /* Pods-Begonia-Clean-Architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Begonia-Clean-Architecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-Begonia-Clean-Architecture/Pods-Begonia-Clean-Architecture.release.xcconfig"; sourceTree = "<group>"; };
+		D3D6F05C970AC974B085B7C8 /* Pods_Begonia_Clean_ArchitectureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Begonia_Clean_ArchitectureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84D0C531F19205F009D6470 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = Core/Repository.swift; sourceTree = "<group>"; };
+		D86161BD1F1BBF1D00587A0C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D86161BF1F1BBF5C00587A0C /* CDUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDUser.swift; sourceTree = "<group>"; };
+		D86161C31F1C49B200587A0C /* Try.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Try.swift; path = Core/Try.swift; sourceTree = "<group>"; };
 		D8CECC3A1F1912AB00BFE922 /* Begonia-Clean-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Begonia-Clean-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CECC3D1F1912AB00BFE922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8CECC3F1F1912AB00BFE922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +72,9 @@
 		D8CECC5C1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Begonia-Clean-ArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CECC601F1912AB00BFE922 /* Begonia_Clean_ArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Begonia_Clean_ArchitectureUITests.swift; sourceTree = "<group>"; };
 		D8CECC621F1912AB00BFE922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D629DC1F1BAC7300421B5A /* CoreDataRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataRepo.swift; sourceTree = "<group>"; };
+		D8D629E61F1BAF0E00421B5A /* CDTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDTimeline.swift; sourceTree = "<group>"; };
+		D8D629E91F1BAF5900421B5A /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CCEFD1DA51021CF6887A2A /* Pods_Begonia_Clean_Architecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210CA08A5C6DFD6F867617D7 /* Pods_Begonia_Clean_ArchitectureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2148638EAFF9272B18BBF01 /* Pods_Begonia_Clean_ArchitectureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22FE3C9EA6827459C68177EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58EE2E04AFF730DB28A2C /* Pods-Begonia-Clean-Architecture.debug.xcconfig */,
+				C3FE46B85E8530A3AB70B20C /* Pods-Begonia-Clean-Architecture.release.xcconfig */,
+				6332F4BC250AE4AAEEC9686D /* Pods-Begonia-Clean-ArchitectureTests.debug.xcconfig */,
+				03F5AF81DA120402E20BA79A /* Pods-Begonia-Clean-ArchitectureTests.release.xcconfig */,
+				3FECC9425C52BE163FD9711A /* Pods-Begonia-Clean-ArchitectureUITests.debug.xcconfig */,
+				9BB3CF0B97A29C355EAC501A /* Pods-Begonia-Clean-ArchitectureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D10E47DE35CC6635C0F979C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B387B067CA12840FDEF605A /* Pods_Begonia_Clean_Architecture.framework */,
+				7730BBEDE0FF860DE20AA0F0 /* Pods_Begonia_Clean_ArchitectureTests.framework */,
+				D3D6F05C970AC974B085B7C8 /* Pods_Begonia_Clean_ArchitectureUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D84D0C521F191FF6009D6470 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D8D629DB1F1BAC7300421B5A /* Repositories */,
+				D84D0C531F19205F009D6470 /* Repository.swift */,
+				D86161C31F1C49B200587A0C /* Try.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		D8CECC311F1912AB00BFE922 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				D8CECC541F1912AB00BFE922 /* Begonia-Clean-ArchitectureTests */,
 				D8CECC5F1F1912AB00BFE922 /* Begonia-Clean-ArchitectureUITests */,
 				D8CECC3B1F1912AB00BFE922 /* Products */,
+				22FE3C9EA6827459C68177EF /* Pods */,
+				4D10E47DE35CC6635C0F979C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +163,8 @@
 		D8CECC3C1F1912AB00BFE922 /* Begonia-Clean-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				D8D629DE1F1BACB200421B5A /* Repositories */,
+				D84D0C521F191FF6009D6470 /* Core */,
 				D8CECC3D1F1912AB00BFE922 /* AppDelegate.swift */,
 				D8CECC3F1F1912AB00BFE922 /* ViewController.swift */,
 				D8CECC411F1912AB00BFE922 /* Main.storyboard */,
@@ -128,6 +194,50 @@
 			path = "Begonia-Clean-ArchitectureUITests";
 			sourceTree = "<group>";
 		};
+		D8D629DB1F1BAC7300421B5A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D8D629DC1F1BAC7300421B5A /* CoreDataRepo.swift */,
+			);
+			name = Repositories;
+			path = Core/Repositories;
+			sourceTree = "<group>";
+		};
+		D8D629DE1F1BACB200421B5A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D8D629E21F1BAD3A00421B5A /* CoreData */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		D8D629E21F1BAD3A00421B5A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D8D629E81F1BAF3C00421B5A /* Entities */,
+				D8D629E51F1BAF0E00421B5A /* RepoEntities */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D8D629E51F1BAF0E00421B5A /* RepoEntities */ = {
+			isa = PBXGroup;
+			children = (
+				D8D629E61F1BAF0E00421B5A /* CDTimeline.swift */,
+				D86161BF1F1BBF5C00587A0C /* CDUser.swift */,
+			);
+			path = RepoEntities;
+			sourceTree = "<group>";
+		};
+		D8D629E81F1BAF3C00421B5A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D8D629E91F1BAF5900421B5A /* Timeline.swift */,
+				D86161BD1F1BBF1D00587A0C /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8CECC651F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-Architecture" */;
 			buildPhases = (
+				9FC1E5BF8573B552D85CBE27 /* [CP] Check Pods Manifest.lock */,
 				D8CECC361F1912AB00BFE922 /* Sources */,
 				D8CECC371F1912AB00BFE922 /* Frameworks */,
 				D8CECC381F1912AB00BFE922 /* Resources */,
+				B394627B0EB75B424292F90F /* [CP] Embed Pods Frameworks */,
+				D7B4C31D9ECB941420B806D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8CECC681F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureTests" */;
 			buildPhases = (
+				DC4C38DEF2827BF7FA055B85 /* [CP] Check Pods Manifest.lock */,
 				D8CECC4D1F1912AB00BFE922 /* Sources */,
 				D8CECC4E1F1912AB00BFE922 /* Frameworks */,
 				D8CECC4F1F1912AB00BFE922 /* Resources */,
+				1EA9C2E5DE8C43ED426B6113 /* [CP] Embed Pods Frameworks */,
+				DA8BC0DE97D23254548E598A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8CECC6B1F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureUITests" */;
 			buildPhases = (
+				4E4B0F660A990106739EB093 /* [CP] Check Pods Manifest.lock */,
 				D8CECC581F1912AB00BFE922 /* Sources */,
 				D8CECC591F1912AB00BFE922 /* Frameworks */,
 				D8CECC5A1F1912AB00BFE922 /* Resources */,
+				A81D0D6328E14F3EECFE959D /* [CP] Embed Pods Frameworks */,
+				2E1EBF4B7567833C918824E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +379,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EA9C2E5DE8C43ED426B6113 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureTests/Pods-Begonia-Clean-ArchitectureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E1EBF4B7567833C918824E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureUITests/Pods-Begonia-Clean-ArchitectureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4B0F660A990106739EB093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC1E5BF8573B552D85CBE27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A81D0D6328E14F3EECFE959D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureUITests/Pods-Begonia-Clean-ArchitectureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B394627B0EB75B424292F90F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Begonia-Clean-Architecture/Pods-Begonia-Clean-Architecture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B4C31D9ECB941420B806D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Begonia-Clean-Architecture/Pods-Begonia-Clean-Architecture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8BC0DE97D23254548E598A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Begonia-Clean-ArchitectureTests/Pods-Begonia-Clean-ArchitectureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4C38DEF2827BF7FA055B85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8CECC361F1912AB00BFE922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D629EA1F1BAF5900421B5A /* Timeline.swift in Sources */,
+				D8D629E71F1BAF0E00421B5A /* CDTimeline.swift in Sources */,
 				D8CECC401F1912AB00BFE922 /* ViewController.swift in Sources */,
+				D86161C01F1BBF5C00587A0C /* CDUser.swift in Sources */,
 				D8CECC3E1F1912AB00BFE922 /* AppDelegate.swift in Sources */,
+				D8D629DD1F1BAC7300421B5A /* CoreDataRepo.swift in Sources */,
+				D86161BE1F1BBF1D00587A0C /* User.swift in Sources */,
+				D86161C41F1C49B200587A0C /* Try.swift in Sources */,
 				D8CECC461F1912AB00BFE922 /* Begonia_Clean_Architecture.xcdatamodeld in Sources */,
+				D84D0C541F19205F009D6470 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +681,7 @@
 		};
 		D8CECC661F1912AB00BFE922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D58EE2E04AFF730DB28A2C /* Pods-Begonia-Clean-Architecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VB47TD2V7;
@@ -430,6 +695,7 @@
 		};
 		D8CECC671F1912AB00BFE922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FE46B85E8530A3AB70B20C /* Pods-Begonia-Clean-Architecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VB47TD2V7;
@@ -443,6 +709,7 @@
 		};
 		D8CECC691F1912AB00BFE922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6332F4BC250AE4AAEEC9686D /* Pods-Begonia-Clean-ArchitectureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +725,7 @@
 		};
 		D8CECC6A1F1912AB00BFE922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F5AF81DA120402E20BA79A /* Pods-Begonia-Clean-ArchitectureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +741,7 @@
 		};
 		D8CECC6C1F1912AB00BFE922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FECC9425C52BE163FD9711A /* Pods-Begonia-Clean-ArchitectureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9VB47TD2V7;
@@ -487,6 +756,7 @@
 		};
 		D8CECC6D1F1912AB00BFE922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB3CF0B97A29C355EAC501A /* Pods-Begonia-Clean-ArchitectureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9VB47TD2V7;
@@ -518,6 +788,7 @@
 				D8CECC671F1912AB00BFE922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8CECC681F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +797,7 @@
 				D8CECC6A1F1912AB00BFE922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8CECC6B1F1912AB00BFE922 /* Build configuration list for PBXNativeTarget "Begonia-Clean-ArchitectureUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +806,7 @@
 				D8CECC6D1F1912AB00BFE922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

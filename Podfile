@@ -6,10 +6,13 @@ target 'Begonia-Clean-Architecture' do
   use_frameworks!
 
   # Pods for Begonia-Clean-Architecture
+  pod 'RxSwift', '~> 3.0'
+  pod 'RxCocoa', '~> 3.0'
 
   target 'Begonia-Clean-ArchitectureTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'RxBlocking', '~> 3.0'
+    pod 'RxTest',     '~> 3.0'
   end
 
   target 'Begonia-Clean-ArchitectureUITests' do

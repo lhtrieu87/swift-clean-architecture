@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDSteps" representedClassName="CDSteps" syncable="YES">
+        <attribute name="steps" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="timeline" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDTimeline" inverseName="steps" inverseEntity="CDTimeline" syncable="YES"/>
+    </entity>
+    <entity name="CDTimeline" representedClassName="CDTimeline" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="locationName" attributeType="String" defaultValueString="No location" syncable="YES"/>
+        <attribute name="subtype" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMessages" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="wasDeleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="steps" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDSteps" inverseName="timeline" inverseEntity="CDSteps" syncable="YES"/>
+        <relationship name="weight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDWeight" inverseName="timeline" inverseEntity="CDWeight" syncable="YES"/>
+    </entity>
+    <entity name="CDUser" representedClassName="CDUser" syncable="YES">
+        <attribute name="email" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDWeight" representedClassName="CDWeight" syncable="YES">
+        <attribute name="height" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="weight" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="timeline" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDTimeline" inverseName="weight" inverseEntity="CDTimeline" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDSteps" positionX="205" positionY="-99" width="128" height="75"/>
+        <element name="CDTimeline" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="CDUser" positionX="72" positionY="9" width="128" height="90"/>
+        <element name="CDWeight" positionX="205" positionY="36" width="128" height="90"/>
+    </elements>
 </model>
